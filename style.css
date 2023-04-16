@@ -45,6 +45,7 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
+    
     text-transform: uppercase;
     padding: 0px 20px;
 }
@@ -128,65 +129,45 @@ nav ul .active{
 /*END hero section*/
 
 /*START stat section*/
-.stat {
+.stats{
     background: #082220;
-    width: 90%;
-    position: absolute;
-    height: 6rem;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 1rem;
-    display: grid;
-    padding: 0;
-    grid-template-columns: repeat(3, 1fr);
-    z-index: 10000;
     color: white;
-  }   
-
-  @media only screen and (max-width: 600px) {
-    .stat{
-      grid-template-columns: repeat(1, 1fr);
-      width: 100%;
-      top: 12rem;
-    }
+    z-index: 10000000;
+    height: 33px;
 }
 /*END stat section*/
 
 /*ABOUT US section*/
-.wrapper-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #ffffff;
+.about{
+    margin-top: 80px;
+}
+.about-img{
+    height: 400;
+    width: 500;
 }
 
-.wrapper{
-    margin: 150px auto;
-    width: 70%;
+.about-h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Zodiak,sans-serif;
+    font-size: 3rem;
+    line-height: 120%;
+    font-weight: 400;
 }
 
-img{
-    max-width: 416px;
-    float: left;
-    border: 3px solid #fff;
-    margin-right: 15px;
-    height: 420px;
-}
-
-.text-box{
-    color: #082220
-}
-
-.text-box h2{
-    font-size: 42px;
-}
-
-.text-box p{
-    font-size: 16px;
+.btn{
+    background-color: #082220;
+    color: white;
 }
 /*ABOUT US section end*/
 
 
-/*Footer*/
-/*Footer end*/
+/*4divs section*/
+.Fourdivs{
+    margin: 0px 100px;
+    height: 350px;
+    align-items: center;
+   
+    
+}
+/*4divs end*/
